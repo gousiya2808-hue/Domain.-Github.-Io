@@ -1,4 +1,75 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gousiya | CSE Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            /* Background image of a cat resting/dozed off on a seashore */
+            background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
+            background-size: cover;
+            min-height: 100vh;
+        }
+        /* Add a subtle overlay to improve text readability */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.35);
+            z-index: 0;
+        }
+        /* Ensure all content is above overlay */
+        nav, header, section, footer {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">Gousiya</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header id="about" class="container">
+        <h1>Hello, I’m Gousiya</h1>
+        <p>
+            I am a passionate CSE engineering student in my 1st semester (joined in 2025), with a strong aim to work at Microsoft, designing innovative solutions for the future. I am committed to lear[...]
+        </p>
+    </header>
+
+    <section id="education" class="container">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Current:</strong> B.Tech in Computer Science & Engineering (1st Semester, 2025)</li>
+            <li><strong>Previous:</strong> Intermediate</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>
+            <strong>Phone:</strong> 74********39
+        </p>
+        <p>
+            <strong>Email:</strong> gousiya.2808@gmail.com
+        </p>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Gousiya. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
